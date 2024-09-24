@@ -15,7 +15,7 @@ class App extends React.Component {
 
   state: {data: null | State}
 
-  constructor(props: {}) {
+  constructor(props: Record<string, never>) {
     super(props)
 
     this.state = {
